@@ -3,7 +3,7 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-h3, h4{
+h3, h4, h2{
   color: rgb(2, 98, 2);
   font-family: cursive;
 }
@@ -11,22 +11,37 @@ h3, h4{
   background-color: rgb(2, 98, 2);
   color: white;
 }
-.log {
-  color: rgb(2, 98, 2);
+.logo{
+  width:10%;
+  height:10%;
+}
+.login{
+    color: rgb(2, 98, 2);
 }
 .first {
   background-image: url(./images/schooll.jpg);
   background-size: cover;
   height: 100%;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-left: 2%;
   padding-bottom: 5%;
-  color: rgb(2, 98, 2);
+  color:rgb(2, 98, 2);
 }
-
 .caroimg{
     height:500px;
     width:100%;
-    /* align-self: center; */
-    /* justify-self: center; */
+}
+.carosize{
+    width:70%;
+}
+.caroso{
+    align-items: center;
+}
+.card{
+    width:18rem;
+    border-color:  rgb(2, 98, 2);
+    margin-bottom: 5%;
+}
+.footer{
+    background-color: rgb(207, 207, 207);
 }
