@@ -3,7 +3,10 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-h3, h4, h2{
+body{
+    background-color: rgb(232, 232, 232);
+}
+h3, h4{
   color: rgb(2, 98, 2);
   font-family: cursive;
 }
@@ -15,7 +18,7 @@ h3, h4, h2{
   width:10%;
   height:10%;
 }
-.login{
+.login, .navbar-brand{
     color: rgb(2, 98, 2);
 }
 .first {
@@ -25,7 +28,7 @@ h3, h4, h2{
   padding-top: 15%;
   padding-left: 2%;
   padding-bottom: 5%;
-  color:rgb(2, 98, 2);
+  color:black;
 }
 .caroimg{
     height:500px;
@@ -38,10 +41,54 @@ h3, h4, h2{
     align-items: center;
 }
 .card{
-    width:18rem;
-    border-color:  rgb(2, 98, 2);
+    width:20rem;
     margin-bottom: 5%;
+    position: relative;
 }
 .footer{
     background-color: rgb(207, 207, 207);
 }
+
+
+
+.card2{
+    margin-top: 30px;
+}
+.card3{
+    margin-top: 60px;
+}
+/* .card2::before{
+    content:'';
+    margin-top: 90px;
+    position: absolute;
+    background-color:rgb(2, 98, 2);
+    height: 5px;
+    width:60px;
+    margin-left: -60px;
+}
+.card3::before{
+    content:'';
+    margin-top: 90px;
+    position: absolute;
+    background-color:rgb(2, 98, 2);
+    height: 5px;
+    width:60px;
+    margin-left: -60px;
+} */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 800px) {
+    h4{
+        color:red;
+        font-size:medium;
+    }
+    /* .card2::before{
+        display: none;
+    }
+    .card3::before{
+        display: none;
+    } */
+  }
